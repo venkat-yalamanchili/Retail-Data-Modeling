@@ -2,7 +2,6 @@
 -- Target database: PostgreSQL 12+
 -- Model: normalized transactional schema based on the final ER diagram.
 
--- To rebuild from scratch in a development database, uncomment the line below.
 -- DROP SCHEMA IF EXISTS retail_sales CASCADE;
 
 CREATE SCHEMA IF NOT EXISTS retail_sales;
