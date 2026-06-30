@@ -10,9 +10,7 @@ This repository contains a complete data modeling project for a retail sales ord
 | Project report PDF | [`docs/project_report.pdf`](docs/project_report.pdf) |
 | Project report DOCX | [`docs/project_report.docx`](docs/project_report.docx) |
 | Final ER diagram | [`diagrams/final_er_diagram.png`](diagrams/final_er_diagram.png) |
-| Final ER diagram source | [`diagrams/final_er_diagram.dot`](diagrams/final_er_diagram.dot), [`diagrams/final_er_diagram.mmd`](diagrams/final_er_diagram.mmd) |
 | OLAP star schema diagram | [`diagrams/star_schema_olap.png`](diagrams/star_schema_olap.png) |
-| OLAP star schema source | [`diagrams/star_schema_olap.dot`](diagrams/star_schema_olap.dot), [`diagrams/star_schema_olap.mmd`](diagrams/star_schema_olap.mmd) |
 | OLTP SQL schema | [`sql/01_create_oltp_schema.sql`](sql/01_create_oltp_schema.sql) |
 | OLAP SQL schema | [`sql/02_create_olap_star_schema.sql`](sql/02_create_olap_star_schema.sql) |
 | Data dictionary | [`docs/data_dictionary.md`](docs/data_dictionary.md) |
@@ -41,17 +39,9 @@ retail_data_modeling_github/
 ├── README.md
 ├── PROJECT_REPORT.md
 ├── diagrams/
-│   ├── initial_er_diagram.dot
 │   ├── initial_er_diagram.png
-│   ├── initial_er_diagram.svg
-│   ├── final_er_diagram.dot
-│   ├── final_er_diagram.mmd
 │   ├── final_er_diagram.png
-│   ├── final_er_diagram.svg
-│   ├── star_schema_olap.dot
-│   ├── star_schema_olap.mmd
 │   ├── star_schema_olap.png
-│   └── star_schema_olap.svg
 ├── docs/
 │   ├── data_dictionary.md
 │   ├── normalization_walkthrough.md
