@@ -68,15 +68,6 @@ Create the OLAP star schema:
 psql -d your_database_name -f sql/02_create_olap_star_schema.sql
 ```
 
-## Design Summary
-
-The initial model captured the main business entities but had normalization problems. Branch details were repeated with orders, order quantity was stored at the order level, and the product-to-order relationship was not fully resolved. The final model fixes these issues by creating:
-
-- `store_branch` for branch master data.
-- `order_items` to support multi-product orders.
-- Foreign key relationships between orders, customers, branches, products, payments, and shipments.
-- A star schema for analytics with `fact_sales` and six dimensions.
-
 ## Key Assumptions
 
 - Customer email is unique.
