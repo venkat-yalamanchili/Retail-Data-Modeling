@@ -1,7 +1,6 @@
 ---
 title: "Retail Sales Order Management Data Modeling Project"
-author: "Data Modeling Portfolio Project"
-date: "2026-06-29"
+author: "Venkat Yalamanchili"
 ---
 
 # Retail Sales Order Management Data Modeling Project
